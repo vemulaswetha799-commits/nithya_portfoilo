@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vemula Swetha | Portfolio</title>
+  <meta name="description" content="Portfolio of Vemula Swetha, Joy University × NIAT student. Projects include an IoT SmartWatch, Vote Eligibility Checker, Student Grade Calculator and ATM Management System.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Intro screen: fades out by itself, or on click -->
+  <div class="intro" id="intro">
+    <img src="images/swetha.jpg" alt="Vemula Swetha">
+    <h1>Vemula Swetha</h1>
+    <p>Joy University × NIAT Student</p>
+    <small>Click anywhere to skip the intro.</small>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">Vemula Swetha</a>
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-solid" href="#contact">Hire me</a>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="pill">Aspiring Software Developer</p>
+        <h2>Hi, I’m Vemula Swetha</h2>
+        <p class="lead">Student at Joy University × NIAT, building practical software and IoT solutions that solve everyday problems.</p>
+        <div class="actions">
+          <a class="btn btn-solid" href="#projects">View projects</a>
+          <a class="btn btn-line" href="#contact">Get in touch</a>
+        </div>
+        <div class="social">
+          <a href="https://github.com/" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/swetha-vemula-707a2444b" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:vemulaswetha799@gmail.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+      <img class="portrait" src="images/swetha.jpg" alt="Portrait of Vemula Swetha">
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <p class="label">About me</p>
+      <h2>Get to know me</h2>
+      <p class="sub">A curious learner who enjoys turning ideas into working software.</p>
+
+      <div class="about-grid">
+        <div>
+          <h3>My story</h3>
+          <p>I’m Vemula Swetha, a student at Joy University in partnership with NIAT. I love learning how technology works under the hood and applying it to build useful tools.</p>
+          <p>From an IoT smartwatch to an ATM management system, my projects have helped me strengthen my programming fundamentals, logical thinking and problem-solving skills. I’m eager to keep growing as a developer and collaborate on impactful projects.</p>
+          <div class="stats">
+            <div><strong>4+</strong><span>Projects built</span></div>
+            <div><strong>NIAT</strong><span>Industry-ready training</span></div>
+          </div>
+        </div>
+        <div>
+          <h3>My skills</h3>
+          <ul class="chips">
+            <li>Python</li><li>Java</li><li>C</li><li>C++</li><li>Problem Solving</li><li>OOP</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <p class="label">Projects</p>
+      <h2>Things I have built</h2>
+      <p class="sub">A selection of projects I have worked on during my learning journey.</p>
+
+      <div class="cards">
+        <article class="card">
+          <img src="images/project-smartwatch.png" alt="IoT SmartWatch">
+          <div class="card-body">
+            <h3>IoT SmartWatch</h3>
+            <p>A wearable smartwatch prototype that tracks health metrics like heart rate and steps using sensors and syncs data over Wi-Fi.</p>
+            <ul class="chips small"><li>IoT</li><li>Arduino</li><li>C++</li><li>Sensors</li></ul>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project-vote.png" alt="Vote Eligibility Checker">
+          <div class="card-body">
+            <h3>Vote Eligibility Checker</h3>
+            <p>A program that validates a user’s age and details to determine whether they are eligible to vote, with clear feedback messages.</p>
+            <ul class="chips small"><li>Python</li><li>Conditionals</li><li>Input Validation</li></ul>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project-grades.png" alt="Student Grade Calculator">
+          <div class="card-body">
+            <h3>Student Grade Calculator</h3>
+            <p>Calculates total marks, percentage and grade for students from subject scores, making result processing quick and error-free.</p>
+            <ul class="chips small"><li>Python</li><li>Logic Building</li><li>Functions</li></ul>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project-atm.png" alt="ATM Management System">
+          <div class="card-body">
+            <h3>ATM Management System</h3>
+            <p>A console-based ATM simulation supporting PIN verification, balance enquiry, deposits and withdrawals.</p>
+            <ul class="chips small"><li>Java</li><li>OOP</li><li>Exception Handling</li></ul>
+          </div>
+        </article>
+      </div>
+      <p class="more"><a class="btn btn-line" href="https://github.com/">More on GitHub</a></p>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <p class="label">Education</p>
+      <h2>My academic journey</h2>
+      <div class="timeline">
+        <span class="when">Present</span>
+        <div>
+          <h3>Joy University × NIAT</h3>
+          <p class="meta">Undergraduate Program</p>
+          <p>Learning computer science fundamentals, programming and industry-ready skills through NIAT’s hands-on, project-based curriculum.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <p class="label">Contact</p>
+      <h2>Let’s connect</h2>
+      <p class="sub">Have an opportunity, a question, or just want to say hi? My inbox is open.</p>
+
+      <div class="contact-grid">
+        <div>
+          <h3>Contact information</h3>
+          <p>Reach out through any of these channels.</p>
+          <ul class="links">
+            <li><a href="mailto:vemulaswetha799@gmail.com">vemulaswetha799@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/swetha-vemula-707a2444b">linkedin.com/in/swetha-vemula-707a2444b</a></li>
+            <li><a href="https://github.com/">github.com</a></li>
+          </ul>
+        </div>
+
+        <form class="form" action="#" method="post">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Subject <input type="text" name="subject"></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-solid" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <strong>Vemula Swetha</strong>
+    <span>© 2026 Vemula Swetha. All rights reserved.</span>
+  </footer>
+
+  <script>
+    // Click anywhere to skip the intro
+    const intro = document.getElementById('intro');
+    intro.addEventListener('click', () => intro.classList.add('done'));
+  </script>
+</body>
+</html>
